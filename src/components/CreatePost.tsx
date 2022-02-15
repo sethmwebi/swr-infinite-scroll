@@ -1,10 +1,40 @@
 import { useState } from "react";
+import axios from "axios";
+import { IPost } from "@libs/types";
+// import { mutate } from "swr";
 
-const CreatePost = () => {
+const CreatePost = ({ mutate }) => {
   const [content, setContent] = useState("");
 
   const handleSubmit = async (e) => {
-    //! do some wired stuff
+    e.preventDefault();
+
+    const id = Math.floor(Math.random() * 1000);
+
+    const FAKE_DATA = {
+      id,
+      content,
+      createdAt: Date.now(),
+      clientOnly: true,
+    };
+
+    mutate(
+      (posts: IPost[]) => [FAKE_DATA, ...posts],
+      false
+    );
+
+    setContent("");
+    await axios({
+      method: "post",
+      url: "/posts",
+      data: {
+        content,
+        id,
+        createdAt: Date.now(),
+      },
+    });
+    // setPosts(posts => [data, ...posts])
+    mutate();
   };
 
   return (

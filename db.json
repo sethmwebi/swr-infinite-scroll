@@ -14,6 +14,86 @@
       "id": 3,
       "content": "This is a post with id 3",
       "createdAt": 1625745022490
+    },
+    {
+      "content": "hey Renee",
+      "id": 77,
+      "createdAt": 1644836892587
+    },
+    {
+      "content": "hey now brown cow",
+      "id": 306,
+      "createdAt": 1644836949736
+    },
+    {
+      "content": "hey you",
+      "id": 395,
+      "createdAt": 1644837116104
+    },
+    {
+      "content": "jessica",
+      "id": 640,
+      "createdAt": 1644847166773
+    },
+    {
+      "content": "renee",
+      "id": 919,
+      "createdAt": 1644847286488
+    },
+    {
+      "content": "WER",
+      "id": 993,
+      "createdAt": 1644847802177
+    },
+    {
+      "content": "AERTF",
+      "id": 979,
+      "createdAt": 1644847807252
+    },
+    {
+      "content": "hey ma",
+      "id": 607,
+      "createdAt": 1644847856708
+    },
+    {
+      "content": "asaad",
+      "id": 160,
+      "createdAt": 1644848437427
+    },
+    {
+      "content": "real madrid",
+      "id": 805,
+      "createdAt": 1644848502301
+    },
+    {
+      "content": "barca",
+      "id": 358,
+      "createdAt": 1644848522542
+    },
+    {
+      "content": "messi's the best player",
+      "id": 728,
+      "createdAt": 1644849151840
+    },
+    {
+      "content": "sheeesh",
+      "id": 654,
+      "createdAt": 1644849242360
+    },
+    {
+      "content": "hey now brown cow",
+      "id": 932,
+      "createdAt": 1644849588162
+    },
+    {
+      "content": "nice",
+      "id": 574,
+      "createdAt": 1644849599194
+    },
+    {
+      "content": "my post",
+      "id": 866,
+      "createdAt": 1644904047356
     }
   ],
   "comments": [
@@ -26,8 +106,8 @@
     {
       "id": 3,
       "content": "This is a comment of post 1",
-      "postId": 1
-      ,"createdAt": 1625745022490
+      "postId": 1,
+      "createdAt": 1625745022490
     },
     {
       "id": 2,
@@ -46,6 +126,18 @@
       "content": "This is a comment of post 3",
       "postId": 3,
       "createdAt": 1625745022499
+    },
+    {
+      "content": "sheeesh",
+      "id": 157,
+      "createdAt": 1644849725022,
+      "postId": "932"
+    },
+    {
+      "content": "messinho man",
+      "id": 568,
+      "createdAt": 1644849994118,
+      "postId": "728"
     }
   ]
 }
